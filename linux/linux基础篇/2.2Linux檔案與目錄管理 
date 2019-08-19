@@ -475,7 +475,7 @@ mv (移動檔案與目錄，或更名)
 
 範例一：複製一檔案，建立一目錄，將檔案移動到目錄中
 [root@study ~]# cd /tmp
-[root@study tmp]# cp ~/.bashrc bashrc
+[root@study tmp]# cp ~/.bashrc bashrc      複製檔案或目錄
 [root@study tmp]# mkdir mvtest
 [root@study tmp]# mv bashrc mvtest
 # 將某個檔案移動到某個目錄去，就是這樣做！
